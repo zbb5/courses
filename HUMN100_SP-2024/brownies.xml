@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <head>The ORIGINAL Baker's Chocolate Brownie Recipe</head>
+            <p>https://thestoriedrecipe.com/classic-bakers-chocolate-fudgy-brownie-recipe/</p>
+         
+         <div>
+            <p>INGREDIENTS
+         4 oz (1 box) unsweetened chocolate         
+         ⅔ cup butter
+         1 ⅓ cup all purpose flour         
+         1 teaspoon baking powder         
+         ½ teaspoon salt         
+         4 eggs         
+         2 cups white sugar         
+         2 teaspoon vanilla</p>
+         </div>
+         
+         <div>
+            <p>DIRECTIONS
+         Preheat oven to 350.
+         Grease a 9×13″ pan with butter or cooking spray.
+         Make sure oven rack is in the middle of the oven.
+         In small microwave safe bowl, melt butter and chocolate in microwave (or over double boiler). Allow to cool slightly.
+         Measure flour, salt, and baking powder into another small bowl.
+         In larger mixing bowl, beat eggs thoroughly. A whisk is fine.
+         Gradually add sugar.
+         Blend chocolate mixture and vanilla into egg/sugar mixture.
+         Add flour mixture, stir well.
+         Spread in the greased 9×13″ pan and bake for 25-30 minutes.
+         Cool and cut into 24 squares.</p>
+         </div>
+      </body>
+  </text>
+</TEI>
