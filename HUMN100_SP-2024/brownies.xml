@@ -6,13 +6,15 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>The ORIGINAL Baker's Chocolate Brownie Recipe</title>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <publisher>THE STORIED RECIPE ON THE SEASONED PRO</publisher>
+            <availability><licence>COPYRIGHT © 2024</licence></availability> 
+            
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p><ref target="https://thestoriedrecipe.com/classic-bakers-chocolate-fudgy-brownie-recipe/">The Storied Recipe</ref></p>
          </sourceDesc>
       </fileDesc>
   </teiHeader>
@@ -22,20 +24,20 @@
             <p>https://thestoriedrecipe.com/classic-bakers-chocolate-fudgy-brownie-recipe/</p>
          
          <div>
-            <p>INGREDIENTS
-         4 oz (1 box) unsweetened chocolate         
+            <head>INGREDIENTS</head>
+         <list>4 oz (1 box) unsweetened chocolate         
          ⅔ cup butter
          1 ⅓ cup all purpose flour         
          1 teaspoon baking powder         
          ½ teaspoon salt         
          4 eggs         
          2 cups white sugar         
-         2 teaspoon vanilla</p>
+         2 teaspoon vanilla</list>
          </div>
          
          <div>
-            <p>DIRECTIONS
-         Preheat oven to 350.
+            <head>DIRECTIONS</head>
+         <list>Preheat oven to 350.
          Grease a 9×13″ pan with butter or cooking spray.
          Make sure oven rack is in the middle of the oven.
          In small microwave safe bowl, melt butter and chocolate in microwave (or over double boiler). Allow to cool slightly.
@@ -45,7 +47,7 @@
          Blend chocolate mixture and vanilla into egg/sugar mixture.
          Add flour mixture, stir well.
          Spread in the greased 9×13″ pan and bake for 25-30 minutes.
-         Cool and cut into 24 squares.</p>
+         Cool and cut into 24 squares.</list>
          </div>
       </body>
   </text>
