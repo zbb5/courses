@@ -20,7 +20,7 @@
          <div>
          <head>INGREDIENTS</head>
          <list>
-         <item>4 oz (1 box) unsweetened chocolate</item> 
+         <item cert="high" n="4 " xml:space="default">4 oz (1 box) unsweetened chocolate</item> 
          <item>⅔ cup butter</item>
          <item>1 ⅓ cup all purpose flour</item>         
          <item>1 teaspoon baking powder</item>         
@@ -35,7 +35,7 @@
          <head>DIRECTIONS</head>
          <list>
          <item>Preheat oven to 350. Grease a 9×13″ pan with butter or cooking spray.</item>
-         Make sure oven rack is in the middle of the oven.
+         <item>Make sure oven rack is in the middle of the oven.</item>
          In small microwave safe bowl, melt butter and chocolate in microwave (or over double boiler). Allow to cool slightly.
          Measure flour, salt, and baking powder into another small bowl.
          In larger mixing bowl, beat eggs thoroughly. A whisk is fine.
