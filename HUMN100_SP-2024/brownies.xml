@@ -35,12 +35,12 @@
          <head>DIRECTIONS</head>
          <list>
          <item><eventName>Preheat <objectName>oven</objectName> to 350.</eventName> </item>
-         <item><eventName>Grease a 9×13″ <objectName>pan</objectName> with butter or cooking spray.</eventName></item>
+         <item><eventName>Grease a 9×13″ <objectName>pan</objectName> with butter or <objectName>cooking spray</objectName>.</eventName></item>
          <item><eventName>Make sure oven rack is in the middle of the oven.</eventName></item>
-         <item><eventName>In small microwave safe bowl, melt butter and chocolate in microwave (or over double boiler).</eventName></item> 
+         <item><eventName>In small microwave safe bowl, melt butter and chocolate in <objectName>microwave</objectName> (or over double boiler).</eventName></item> 
          <item><eventName>Allow to cool slightly.</eventName></item>
          <item><eventName>Measure flour, salt, and baking powder into another small bowl.</eventName></item>
-         <item><eventName>In larger mixing bowl, beat eggs thoroughly. A whisk is fine.</eventName></item>
+         <item><eventName>In larger mixing bowl, beat eggs thoroughly.</eventName> A whisk is fine.</item>
          <item><eventName>Gradually add sugar.</eventName></item>
          <item><eventName>Blend chocolate mixture and vanilla into egg/sugar mixture.</eventName></item>
          <item><eventName>Add flour mixture, stir well.</eventName></item>
