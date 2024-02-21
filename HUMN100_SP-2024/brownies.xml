@@ -23,11 +23,11 @@
          <item cert="high" n="4 " xml:space="default"><measure cert="high" unit="m" xml:space="default" quantity="4">4 oz (1 box)</measure> <objectName cert="high" evidence="internal" full="yes" instant="unknown" type="chocolate" xml:space="default">unsweetened chocolate</objectName></item> 
          <item>⅔ cup <objectName cert="high" evidence="internal" full="yes" instant="unknown" type="dairy" xml:space="default">butter</objectName></item>
          <item>1 ⅓ cup <objectName cert="high" evidence="internal" full="yes" instant="unknown" type="dry good" xml:space="default">all purpose flour</objectName></item>         
-         <item>1 teaspoon <objectName cert="high" evidence="internal" full="yes" instant="unknown" xml:space="default" type="dry good">baking powder</objectName></item>         
+         <item>1 teaspoon <objectName cert="high" evidence="internal" full="yes" instant="unknown" xml:space="default" type="drygood">baking powder</objectName></item>         
          <item>½ teaspoon <objectName cert="high" evidence="internal" full="yes" instant="unknown" type="seasoning" xml:space="default">salt</objectName></item>    
          <item>4 <objectName cert="high" evidence="internal" full="yes" instant="unknown" type="protein" xml:space="default">eggs</objectName></item>         
          <item>2 cups <objectName cert="high" evidence="internal" full="yes" instant="unknown" type="sugar" xml:space="default">white sugar</objectName></item>         
-         <item>2 teaspoon <objectName>vanilla</objectName></item>
+         <item>2 teaspoon <objectName cert="high" evidence="internal" full="yes" instant="unknown" type="seasoning" xml:space="default">vanilla</objectName></item>
          </list>
          </div>
          
