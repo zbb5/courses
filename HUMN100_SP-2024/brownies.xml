@@ -20,7 +20,7 @@
          <div>
          <head>INGREDIENTS</head>
          <list>
-         <item cert="high" n="4 " xml:space="default"><measure cert="high" quantity="4 oz" unit="m" xml:space="default">4 oz (1 box)</measure> <objectName>unsweetened chocolate</objectName></item> 
+         <item cert="high" n="4 " xml:space="default"><measure cert="high" unit="m" xml:space="default" quantity="4">4 oz (1 box)</measure> <objectName>unsweetened chocolate</objectName></item> 
          <item>⅔ cup <objectName>butter</objectName></item>
          <item>1 ⅓ cup <objectName>all purpose flour</objectName></item>         
          <item>1 teaspoon <objectName>baking powder</objectName></item>         
@@ -34,7 +34,8 @@
          <div>
          <head>DIRECTIONS</head>
          <list>
-         <item>Preheat oven to 350. Grease a 9×13″ pan with butter or cooking spray.</item>
+         <item><eventName>Preheat oven to 350.</eventName> </item>
+         <item><eventName>Grease a 9×13″ pan with butter or cooking spray.</eventName></item>
          <item>Make sure oven rack is in the middle of the oven.</item>
          <item>In small microwave safe bowl, melt butter and chocolate in microwave (or over double boiler).</item> 
          <item>Allow to cool slightly.</item>
