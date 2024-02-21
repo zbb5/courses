@@ -20,7 +20,7 @@
          <div>
          <head>INGREDIENTS</head>
          <list>
-         <item cert="high" n="4 " xml:space="default"><measure cert="high" unit="m" xml:space="default" quantity="4">4 oz (1 box)</measure> <objectName>unsweetened chocolate</objectName></item> 
+         <item cert="high" n="4 " xml:space="default"><measure cert="high" unit="m" xml:space="default" quantity="4">4 oz (1 box)</measure> <objectName cert="high" evidence="internal" full="yes" instant="unknown" type="chocolate" xml:space="default">unsweetened chocolate</objectName></item> 
          <item>⅔ cup <objectName>butter</objectName></item>
          <item>1 ⅓ cup <objectName>all purpose flour</objectName></item>         
          <item>1 teaspoon <objectName>baking powder</objectName></item>         
@@ -40,7 +40,7 @@
          <item><eventName>In small microwave safe bowl, melt butter and chocolate in <objectName>microwave</objectName> (or over double boiler).</eventName></item> 
          <item><eventName>Allow to cool slightly.</eventName></item>
          <item><eventName>Measure flour, salt, and baking powder into another small bowl.</eventName></item>
-         <item><eventName>In larger mixing bowl, beat eggs thoroughly.</eventName><note> A whisk is fine.</note></item>
+         <item><eventName>In larger mixing bowl, beat eggs thoroughly.</eventName><note> A <objectName>whisk</objectName> is fine.</note></item>
          <item><eventName>Gradually add sugar.</eventName></item>
          <item><eventName>Blend chocolate mixture and vanilla into egg/sugar mixture.</eventName></item>
          <item><eventName>Add flour mixture, stir well.</eventName></item>
