@@ -34,8 +34,8 @@
          <div>
          <head>DIRECTIONS</head>
          <list>
-         <item><eventName>Preheat oven to 350.</eventName> </item>
-         <item><eventName>Grease a 9×13″ pan with butter or cooking spray.</eventName></item>
+         <item><eventName>Preheat <objectName>oven</objectName> to 350.</eventName> </item>
+         <item><eventName>Grease a 9×13″ <objectName>pan</objectName> with butter or cooking spray.</eventName></item>
          <item><eventName>Make sure oven rack is in the middle of the oven.</eventName></item>
          <item><eventName>In small microwave safe bowl, melt butter and chocolate in microwave (or over double boiler).</eventName></item> 
          <item><eventName>Allow to cool slightly.</eventName></item>
@@ -43,9 +43,9 @@
          <item><eventName>In larger mixing bowl, beat eggs thoroughly. A whisk is fine.</eventName></item>
          <item><eventName>Gradually add sugar.</eventName></item>
          <item><eventName>Blend chocolate mixture and vanilla into egg/sugar mixture.</eventName></item>
-         <item>Add flour mixture, stir well.</item>
-         <item>Spread in the greased 9×13″ pan and bake for 25-30 minutes.</item>
-         <item>Cool and cut into 24 squares.</item>
+         <item><eventName>Add flour mixture, stir well.</eventName></item>
+         <item><eventName>Spread in the greased 9×13″ pan and bake for 25-30 minutes.</eventName></item>
+         <item><eventName>Cool and cut into 24 squares.</eventName></item>
          </list>
          </div>
       </body>
