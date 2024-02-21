@@ -20,14 +20,14 @@
          <div>
          <head>INGREDIENTS</head>
          <list>
-         <item cert="high" n="4 " xml:space="default">4 oz (1 box) <objectName>unsweetened chocolate</objectName></item> 
+         <item cert="high" n="4 " xml:space="default"><measure cert="high" quantity="4 oz" unit="m" xml:space="default">4 oz (1 box)</measure> <objectName>unsweetened chocolate</objectName></item> 
          <item>⅔ cup <objectName>butter</objectName></item>
          <item>1 ⅓ cup <objectName>all purpose flour</objectName></item>         
-         <item>1 teaspoon baking powder</item>         
-         <item>½ teaspoon salt</item>    
-         <item>4 eggs</item>         
-         <item>2 cups white sugar</item>         
-         <item>2 teaspoon vanilla</item>
+         <item>1 teaspoon <objectName>baking powder</objectName></item>         
+         <item>½ teaspoon <objectName>salt</objectName></item>    
+         <item>4 <objectName>eggs</objectName></item>         
+         <item>2 cups <objectName>white sugar</objectName></item>         
+         <item>2 teaspoon <objectName>vanilla</objectName></item>
          </list>
          </div>
          
