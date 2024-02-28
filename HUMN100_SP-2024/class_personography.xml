@@ -147,7 +147,17 @@
                </person>
             </listPerson>
             <p>I have color synesthesia and a rambunctious cat</p>
-         </div><div/>
+         </div><div><listPerson cert="high" default="true" xml:space="default" xml:id="humn10016">
+            <person>
+               <persName>Diane Jackaki</persName>
+               <birth>
+                  <date/>
+                  <placeName>Englewood Cliffs, NJ</placeName>
+               </birth>
+               <occupation>English </occupation><occupation>History </occupation><occupation>Theatre </occupation><occupation>Anthropology</occupation>
+
+            </person>
+            </listPerson></div>
       </body>
    </text>
 </TEI>
