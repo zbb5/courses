@@ -143,10 +143,10 @@
                      <date>3/16</date>
                      <placeName>Charlottesville, VA</placeName>
                   </birth>
-                  <occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">English</occupation><occupation cert="high" evidence="internal" instant="unknown" type="minor" xml:space="default"/><occupation cert="high" evidence="internal" instant="unknown" type="minor" xml:space="default"/> <affiliation>GROUP I'M A PART OF</affiliation>
+                  <occupation>English</occupation><occupation cert="high" evidence="internal" instant="unknown" type="minor" xml:space="default"> Computer Science</occupation><occupation cert="high" evidence="internal" instant="unknown" type="minor" xml:space="default"> Art History</occupation> <affiliation>GROUP I'M A PART OF</affiliation>
                </person>
             </listPerson>
-            <p>FUN FACT</p><p/>
+            <p>I have color synesthesia and a rambunctious cat</p>
          </div>
       </body>
    </text>
