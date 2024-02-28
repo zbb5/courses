@@ -66,14 +66,12 @@
                <person>
                   <persName>Abby Hausner</persName>
                   <birth>
-                     <date>10/08/2004</date> <placeName>Ridgewood, NJ</placeName> </birth><occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Economics</occupation><occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default"> Political Science</occupation> <affiliation>Club Basketball</affiliation></person></listPerson><p>FUN FACT</p>
+                     <date>10/08/2004</date> <placeName>Ridgewood, NJ</placeName> </birth><occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Economics</occupation><occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default"> Political Science</occupation> <affiliation cert="high" evidence="internal" instant="unknown" type="sport" xml:space="default">Club Basketball</affiliation></person></listPerson><p>I'm going to Scotland in May</p>
          </div>
          <div>
             <listPerson>
                <person>
-                  <persName>NAME7</persName>
-                  <birth>
-                     <date>DATE</date>
+                  <persName>Dylan Lange</persName> <birth><date>DATE</date>
                      <placeName>PLACE</placeName>
                   </birth>
                   <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
