@@ -86,14 +86,9 @@
                <person>
                   <persName>Leo McMenimen</persName>
                   <birth>
-                     <date>DATE</date>
-                     <placeName>PLACE</placeName>
+                     <date>11/25/2003</date> <placeName>Sayerville, NJ</placeName>
                   </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
-               </person>
-            </listPerson>
-            <p>FUN FACT</p>
+                  <occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Computer Science</occupation> <affiliation cert="high" evidence="internal" instant="unknown" type="club" xml:space="default">ACM</affiliation></person></listPerson><p>FUN FACT</p>
          </div>
          <div>
             <listPerson>
