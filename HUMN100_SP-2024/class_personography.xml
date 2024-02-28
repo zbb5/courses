@@ -59,16 +59,12 @@
             <listPerson cert="high" default="true" xml:id="humn10006" xml:space="default">
                <person>
                   <persName>Jackson Green</persName> <birth><date>03/09/2005</date> <placeName>Washington, DC</placeName> </birth><occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Undecided</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
-               </person>
-            </listPerson>
-
-            <p>FUN FACT</p>
+                  <affiliation cert="high" evidence="internal" instant="unknown" type="sport" xml:space="default">Crew</affiliation></person></listPerson><p>I have 2 dogs and a cat</p>
          </div>
          <div>
             <listPerson>
                <person>
-                  <persName>NAME6</persName>
+                  <persName>Abby Hausner</persName>
                   <birth>
                      <date>DATE</date>
                      <placeName>PLACE</placeName>
