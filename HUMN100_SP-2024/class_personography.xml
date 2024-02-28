@@ -122,11 +122,7 @@
                   <persName>Erin Wiehn</persName> <birth><date>02/26/2005</date>
                      <placeName>Newton, MA</placeName>
                   </birth>
-                  <occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Economics</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
-               </person>
-            </listPerson>
-            <p>FUN FACT</p>
+                  <occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Economics</occupation><occupation cert="high" evidence="internal" instant="unknown" type="minor" xml:space="default"> Marketing</occupation> <affiliation cert="high" evidence="internal" instant="unknown" type="club" xml:space="default">Core Marketing</affiliation></person></listPerson><p>I'm </p>
          </div>
          <div>
             <listPerson>
