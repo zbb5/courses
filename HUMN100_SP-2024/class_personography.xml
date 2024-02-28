@@ -130,8 +130,7 @@
                   <persName>Peyton Wynkoop</persName> <birth><date>08/21/2005</date>
                      <placeName>Abu Dhabi, UAE</placeName>
                   </birth>
-                  <occupation>Undecided</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
+                  <occupation>Undeclared</occupation> <affiliation>GROUP I'M A PART OF</affiliation>
                </person>
             </listPerson>
             <p>FUN FACT</p>
@@ -139,16 +138,15 @@
          <div>
             <listPerson>
                <person>
-                  <persName>NAME14</persName>
+                  <persName>Claire Cahoon</persName>
                   <birth>
-                     <date>DATE</date>
-                     <placeName>PLACE</placeName>
+                     <date>3/16</date>
+                     <placeName>Charlottesville, VA</placeName>
                   </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
+                  <occupation>English</occupation> <affiliation>GROUP I'M A PART OF</affiliation>
                </person>
             </listPerson>
-            <p>FUN FACT</p>
+            <p>FUN FACT</p><p/><p/><p/>
          </div>
       </body>
    </text>
