@@ -29,7 +29,7 @@
                <person>
                   <persName>Miguel Camacho</persName>
                   <birth>
-                     <date>12/13/2002</date> <placeName>Bogota, Colombia</placeName> </birth><occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Creative Writing</occupation><occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default"> Comparitive &amp; Digital Humanities</occupation> <affiliation>Rock Climbing</affiliation></person></listPerson><p>FUN FACT</p>
+                     <date>12/13/2002</date> <placeName>Bogota, Colombia</placeName> </birth><occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Creative Writing</occupation><occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default"> Comparitive &amp; Digital Humanities</occupation> <affiliation cert="high" evidence="internal" instant="unknown" type="sport" xml:space="default">Rock Climbing </affiliation><affiliation cert="high" evidence="internal" instant="unknown" type="scholarly" xml:space="default">Arts Merit Scholar</affiliation></person></listPerson><p>FUN FACT</p>
          </div>
          <div>
             <listPerson>
