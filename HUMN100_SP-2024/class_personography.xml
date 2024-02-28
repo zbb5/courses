@@ -29,11 +29,7 @@
                <person>
                   <persName>Miguel Camacho</persName>
                   <birth>
-                     <date>12/13/2002</date> <placeName>Bogota, Colombia</placeName> </birth><occupation>Creative Writing</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
-               </person>
-            </listPerson>
-            <p>FUN FACT</p>
+                     <date>12/13/2002</date> <placeName>Bogota, Colombia</placeName> </birth><occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Creative Writing</occupation><occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default"> Comparitive &amp; Digital Humanities</occupation> <affiliation>Rock Climbing</affiliation></person></listPerson><p>FUN FACT</p>
          </div>
          <div>
             <listPerson>
