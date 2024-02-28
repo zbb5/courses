@@ -79,10 +79,7 @@
                   <persName>Joshua Lee</persName> <birth><date>02/20/2004</date>
                      <placeName>Englewood, NJ</placeName>
                   </birth>
-                  <occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Computer Science</occupation> <affiliation>GROUP I'M A PART OF</affiliation>
-               </person>
-            </listPerson>
-            <p>FUN FACT</p>
+                  <occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Computer Science</occupation> <affiliation>Korean Cultural Association</affiliation></person></listPerson><p>FUN FACT</p>
          </div>
          <div>
             <listPerson>
