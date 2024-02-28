@@ -105,7 +105,7 @@
             <p>FUN FACT</p>
          </div>
          <div>
-            <listPerson>
+            <listPerson cert="high" default="true" xml:id="humn10012" xml:space="default">
                <person>
                   <persName>Farhaj Shahid</persName> <birth><date>DATE</date>
                      <placeName>PLACE</placeName>
@@ -117,14 +117,12 @@
             <p>FUN FACT</p>
          </div>
          <div>
-            <listPerson>
+            <listPerson cert="high" default="true" xml:id="humn10013" xml:space="default">
                <person>
-                  <persName>NAME12</persName>
-                  <birth>
-                     <date>DATE</date>
-                     <placeName>PLACE</placeName>
+                  <persName>Erin Wiehn</persName> <birth><date>02/26/2005</date>
+                     <placeName>Newton, MA</placeName>
                   </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
+                  <occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Economics</occupation>
                   <affiliation>GROUP I'M A PART OF</affiliation>
                </person>
             </listPerson>
