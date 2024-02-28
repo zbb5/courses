@@ -17,12 +17,12 @@
          <div>
             <listPerson cert="high" default="true" xml:id="humn10002" xml:space="default">
                <person>
-                  <persName>Zach Blumenfeld</persName><birth><date>02/02/2005</date> Doylestown, PA </birth><occupation cert="high" evidence="internal" instant="unknown" xml:space="default" type="major"> Computer Science Engineer</occupation> </person></listPerson><p>I'm left handed</p>
+                  <persName>Zach Blumenfeld</persName><birth><date>02/02/2005</date> Doylestown, PA </birth><occupation cert="high" evidence="internal" instant="unknown" xml:space="default" type="major"> Computer Science Engineering</occupation></person></listPerson><p>I'm left handed</p>
          </div>
          <div>
             <listPerson cert="high" default="true" xml:id="humn10001" xml:space="default">
                <person>
-                  <persName>Nikita Bityutskiy</persName><birth><date>10/09/2003</date> Tashkent, Uzbekistan </birth><occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Computer Science Engineer </occupation><occupation cert="high" evidence="internal" instant="unknown" type="minor" xml:space="default">American Politics</occupation> <affiliation cert="high" evidence="internal" instant="unknown" type="sport" xml:space="default">Men's Swim and Dive</affiliation></person></listPerson><p>I wanted to play baseball but screwed up my shoulder</p>
+                  <persName>Nikita Bityutskiy</persName><birth><date>10/09/2003</date> Tashkent, Uzbekistan </birth><occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Computer Science Engineering </occupation><occupation cert="high" evidence="internal" instant="unknown" type="minor" xml:space="default">American Politics</occupation> <affiliation cert="high" evidence="internal" instant="unknown" type="sport" xml:space="default">Men's Swim and Dive</affiliation></person></listPerson><p>I wanted to play baseball but screwed up my shoulder</p>
          </div>
          <div>
             <listPerson cert="high" default="true" xml:id="humn10003" xml:space="default">
@@ -53,10 +53,7 @@
                <person>
                   <persName>Junbo Feng</persName>
                   <birth>
-                     <date>07/12/2005</date> <placeName>PLACE</placeName>
-                  </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
+                     <date>07/12/2005</date> <placeName>Guangdong, China</placeName> </birth><occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Computer Science Engineering</occupation> <affiliation>GROUP I'M A PART OF</affiliation>
                </person>
             </listPerson>
             <p>FUN FACT</p>
