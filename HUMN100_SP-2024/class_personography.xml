@@ -74,13 +74,12 @@
                   <persName>Dylan Lange</persName> <birth><date>06/01/2004</date> <placeName>Indio, CA</placeName> </birth><occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Computer Science</occupation> <affiliation cert="high" evidence="internal" instant="unknown" type="sport" xml:space="default">Volleyball</affiliation><affiliation cert="high" evidence="internal" instant="unknown" type="social" xml:space="default"> Sigma Alpha Epsilon</affiliation></person></listPerson><p>I have 15 cats</p>
          </div>
          <div>
-            <listPerson>
+            <listPerson cert="high" default="true" xml:id="humn10009" xml:space="default">
                <person>
-                  <persName>Joshua Lee</persName> <birth><date>DATE</date>
-                     <placeName>PLACE</placeName>
+                  <persName>Joshua Lee</persName> <birth><date>02/20/2004</date>
+                     <placeName>Englewood, NJ</placeName>
                   </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
+                  <occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Computer Science</occupation> <affiliation>GROUP I'M A PART OF</affiliation>
                </person>
             </listPerson>
             <p>FUN FACT</p>
