@@ -20,19 +20,16 @@
                   <persName>Zach Blumenfeld</persName><birth><date>02/02/2005</date> Doylestown, PA </birth><occupation>Student</occupation><occupation cert="high" evidence="internal" instant="unknown" xml:space="default" type="major"> Computer Science Engineer</occupation> </person></listPerson><p>I'm left handed</p>
          </div>
          <div>
-            <listPerson>
+            <listPerson cert="high" default="true" xml:id="humn10001" xml:space="default">
                <person>
-                  <persName>Nikita Bityutskiy</persName><birth><date>10/09/2003</date> Tashkent, Uzbekistan </birth><occupation>Student </occupation><occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Computer Science Engineer </occupation><occupation cert="high" evidence="internal" instant="unknown" type="minor" xml:space="default">American Politics</occupation> <affiliation>Men's Swim and Dive</affiliation></person></listPerson><p>FUN FACT</p>
+                  <persName>Nikita Bityutskiy</persName><birth><date>10/09/2003</date> Tashkent, Uzbekistan </birth><occupation>Student </occupation><occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Computer Science Engineer </occupation><occupation cert="high" evidence="internal" instant="unknown" type="minor" xml:space="default">American Politics</occupation> <affiliation cert="high" evidence="internal" instant="unknown" type="sport" xml:space="default">Men's Swim and Dive</affiliation></person></listPerson><p>FUN FACT</p>
          </div>
          <div>
             <listPerson>
                <person>
-                  <persName>NAME3</persName>
+                  <persName>Miguel Camacho</persName>
                   <birth>
-                     <date>DATE</date>
-                     <placeName>PLACE</placeName>
-                  </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
+                     <date>12/13/2002</date> <placeName>Bogota, Col</placeName> </birth><occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
                   <affiliation>GROUP I'M A PART OF</affiliation>
                </person>
             </listPerson>
