@@ -66,11 +66,7 @@
                <person>
                   <persName>Abby Hausner</persName>
                   <birth>
-                     <date>10/08/2004</date> <placeName>Ridgewood, NJ</placeName> </birth><occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Economics</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
-               </person>
-            </listPerson>
-            <p>FUN FACT</p>
+                     <date>10/08/2004</date> <placeName>Ridgewood, NJ</placeName> </birth><occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Economics</occupation><occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default"> Political Science</occupation> <affiliation>Club Basketball</affiliation></person></listPerson><p>FUN FACT</p>
          </div>
          <div>
             <listPerson>
