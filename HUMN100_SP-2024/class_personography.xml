@@ -53,10 +53,7 @@
                <person>
                   <persName>Junbo Feng</persName>
                   <birth>
-                     <date>07/12/2005</date> <placeName>Guangdong, China</placeName> </birth><occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Computer Science Engineering</occupation> <affiliation>GROUP I'M A PART OF</affiliation>
-               </person>
-            </listPerson>
-            <p>FUN FACT</p>
+                     <date>07/12/2005</date> <placeName>Guangdong, China</placeName> </birth><occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Computer Science Engineering</occupation> <affiliation cert="high" evidence="internal" instant="unknown" type="sport" xml:space="default">Cycling</affiliation></person></listPerson><p>I am a music producer</p>
          </div>
          <div>
             <listPerson>
