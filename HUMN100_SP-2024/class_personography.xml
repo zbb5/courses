@@ -22,7 +22,7 @@
          <div>
             <listPerson>
                <person>
-                  <persName>Nikita Bityutskiy</persName><birth><date>10/09/2003</date> Tashkent, Uzbekistan </birth><occupation>Student</occupation> <affiliation>GROUP I'M A PART OF</affiliation>
+                  <persName>Nikita Bityutskiy</persName><birth><date>10/09/2003</date> Tashkent, Uzbekistan </birth><occupation/><occupation>Student</occupation> <affiliation>GROUP I'M A PART OF</affiliation>
                </person>
             </listPerson>
             <p>FUN FACT</p>
