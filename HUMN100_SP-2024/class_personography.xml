@@ -149,15 +149,12 @@
             <p>I have color synesthesia and a rambunctious cat</p>
          </div><div><listPerson cert="high" default="true" xml:space="default" xml:id="humn10016">
             <person>
-               <persName>Diane Jackaki</persName>
+               <persName>Dr. J Jackaki</persName>
                <birth>
                   <date/>
                   <placeName>Englewood Cliffs, NJ</placeName>
                </birth>
-               <occupation>English </occupation><occupation>History </occupation><occupation>Theatre </occupation><occupation>Anthropology</occupation>
-
-            </person>
-            </listPerson></div>
+               <occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">English </occupation><occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">History </occupation><occupation cert="high" evidence="internal" instant="unknown" type="minor" xml:space="default">Theatre </occupation><occupation cert="high" evidence="internal" instant="unknown" type="minor" xml:space="default">Anthropology</occupation><affiliation cert="high" evidence="internal" instant="unknown" type="social " xml:space="default"> Delta Gamma</affiliation><affiliation cert="high" evidence="internal" instant="unknown" type="academic" xml:space="default"/></person></listPerson></div>
       </body>
    </text>
 </TEI>
