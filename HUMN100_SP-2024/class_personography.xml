@@ -17,7 +17,7 @@
          <div>
             <listPerson cert="high" default="true" xml:id="humn10002" xml:space="default">
                <person>
-                  <persName>Zach Blumenfeld</persName><birth><date>02/02/2005</date> Doylestown, PA </birth><occupation>Student</occupation><occupation> Computer Science Engineer</occupation> </person></listPerson><p>I'm left handed</p>
+                  <persName>Zach Blumenfeld</persName><birth><date>02/02/2005</date> Doylestown, PA </birth><occupation>Student</occupation><occupation cert="high" evidence="internal" instant="unknown" type="curricular" xml:space="default"> Computer Science Engineer</occupation> </person></listPerson><p>I'm left handed</p>
          </div>
          <div>
             <listPerson>
