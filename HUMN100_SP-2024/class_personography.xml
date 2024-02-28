@@ -88,12 +88,12 @@
                   <birth>
                      <date>11/25/2003</date> <placeName>Sayerville, NJ</placeName>
                   </birth>
-                  <occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Computer Science</occupation> <affiliation cert="high" evidence="internal" instant="unknown" type="club" xml:space="default">ACM</affiliation></person></listPerson><p>FUN FACT</p>
+                  <occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Computer Science</occupation> <affiliation cert="high" evidence="internal" instant="unknown" type="club" xml:space="default">ACM</affiliation></person></listPerson><p>I have a metal rod screwed into my right arm</p>
          </div>
          <div>
-            <listPerson>
+            <listPerson cert="high" default="true" xml:id="humn10011" xml:space="default">
                <person>
-                  <persName>NAME10</persName>
+                  <persName>Alexander Peters</persName>
                   <birth>
                      <date>DATE</date>
                      <placeName>PLACE</placeName>
@@ -107,9 +107,7 @@
          <div>
             <listPerson>
                <person>
-                  <persName>NAME11</persName>
-                  <birth>
-                     <date>DATE</date>
+                  <persName>Farhaj Shahid</persName> <birth><date>DATE</date>
                      <placeName>PLACE</placeName>
                   </birth>
                   <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
