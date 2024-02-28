@@ -143,10 +143,10 @@
                      <date>3/16</date>
                      <placeName>Charlottesville, VA</placeName>
                   </birth>
-                  <occupation>English</occupation> <affiliation>GROUP I'M A PART OF</affiliation>
+                  <occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">English</occupation><occupation cert="high" evidence="internal" instant="unknown" type="minor" xml:space="default"/><occupation cert="high" evidence="internal" instant="unknown" type="minor" xml:space="default"/> <affiliation>GROUP I'M A PART OF</affiliation>
                </person>
             </listPerson>
-            <p>FUN FACT</p><p/><p/><p/>
+            <p>FUN FACT</p><p/>
          </div>
       </body>
    </text>
