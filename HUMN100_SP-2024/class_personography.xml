@@ -122,17 +122,15 @@
                   <persName>Erin Wiehn</persName> <birth><date>02/26/2005</date>
                      <placeName>Newton, MA</placeName>
                   </birth>
-                  <occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Economics</occupation><occupation cert="high" evidence="internal" instant="unknown" type="minor" xml:space="default"> Marketing</occupation> <affiliation cert="high" evidence="internal" instant="unknown" type="club" xml:space="default">Core Marketing</affiliation></person></listPerson><p>I'm </p>
+                  <occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Economics</occupation><occupation cert="high" evidence="internal" instant="unknown" type="minor" xml:space="default"> Marketing</occupation> <affiliation cert="high" evidence="internal" instant="unknown" type="club" xml:space="default">Core Marketing</affiliation></person></listPerson><p>I'm left handed</p>
          </div>
          <div>
-            <listPerson>
+            <listPerson cert="high" default="true" xml:id="humn10014" xml:space="default">
                <person>
-                  <persName>NAME13</persName>
-                  <birth>
-                     <date>DATE</date>
-                     <placeName>PLACE</placeName>
+                  <persName>Peyton Wynkoop</persName> <birth><date>08/21/2005</date>
+                     <placeName>Abu Dhabi, UAE</placeName>
                   </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
+                  <occupation>Undecided</occupation>
                   <affiliation>GROUP I'M A PART OF</affiliation>
                </person>
             </listPerson>
