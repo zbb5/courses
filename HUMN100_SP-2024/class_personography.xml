@@ -22,10 +22,7 @@
          <div>
             <listPerson>
                <person>
-                  <persName>Nikita Bityutskiy</persName><birth><date>10/09/2003</date> Tashkent, Uzbekistan </birth><occupation>Student </occupation><occupation>Computer Science Engineer </occupation> <affiliation>GROUP I'M A PART OF</affiliation>
-               </person>
-            </listPerson>
-            <p>FUN FACT</p>
+                  <persName>Nikita Bityutskiy</persName><birth><date>10/09/2003</date> Tashkent, Uzbekistan </birth><occupation>Student </occupation><occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Computer Science Engineer </occupation><occupation cert="high" evidence="internal" instant="unknown" type="minor" xml:space="default">American Politics</occupation> <affiliation>Men's Swim and Dive</affiliation></person></listPerson><p>FUN FACT</p>
          </div>
          <div>
             <listPerson>
