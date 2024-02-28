@@ -17,19 +17,19 @@
          <div>
             <listPerson cert="high" default="true" xml:id="humn10002" xml:space="default">
                <person>
-                  <persName>Zach Blumenfeld</persName><birth><date>02/02/2005</date> Doylestown, PA </birth><occupation>Student</occupation><occupation cert="high" evidence="internal" instant="unknown" xml:space="default" type="major"> Computer Science Engineer</occupation> </person></listPerson><p>I'm left handed</p>
+                  <persName>Zach Blumenfeld</persName><birth><date>02/02/2005</date> Doylestown, PA </birth><occupation cert="high" evidence="internal" instant="unknown" xml:space="default" type="major"> Computer Science Engineer</occupation> </person></listPerson><p>I'm left handed</p>
          </div>
          <div>
             <listPerson cert="high" default="true" xml:id="humn10001" xml:space="default">
                <person>
-                  <persName>Nikita Bityutskiy</persName><birth><date>10/09/2003</date> Tashkent, Uzbekistan </birth><occupation>Student </occupation><occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Computer Science Engineer </occupation><occupation cert="high" evidence="internal" instant="unknown" type="minor" xml:space="default">American Politics</occupation> <affiliation cert="high" evidence="internal" instant="unknown" type="sport" xml:space="default">Men's Swim and Dive</affiliation></person></listPerson><p>FUN FACT</p>
+                  <persName>Nikita Bityutskiy</persName><birth><date>10/09/2003</date> Tashkent, Uzbekistan </birth><occupation cert="high" evidence="internal" instant="unknown" type="major" xml:space="default">Computer Science Engineer </occupation><occupation cert="high" evidence="internal" instant="unknown" type="minor" xml:space="default">American Politics</occupation> <affiliation cert="high" evidence="internal" instant="unknown" type="sport" xml:space="default">Men's Swim and Dive</affiliation></person></listPerson><p>I wanted to play baseball but screwed up my shoulder</p>
          </div>
          <div>
             <listPerson>
                <person>
                   <persName>Miguel Camacho</persName>
                   <birth>
-                     <date>12/13/2002</date> <placeName>Bogota, Col</placeName> </birth><occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
+                     <date>12/13/2002</date> <placeName>Bogota, Colombia</placeName> </birth><occupation>Creative Writing</occupation>
                   <affiliation>GROUP I'M A PART OF</affiliation>
                </person>
             </listPerson>
