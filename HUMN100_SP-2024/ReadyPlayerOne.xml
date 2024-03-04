@@ -173,6 +173,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?person_annotation_20240304092241301",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-04T14:22:41.301Z",
+	"dcterms:modified": "2024-03-04T14:22:41.301Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/zbb5",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Zach Blumenfeld"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?person_annotation_20240304092241301#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?person_annotation_20240304092241301#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q55808133",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -197,26 +276,26 @@
             newscasters announced the ob- scenely large amount of money that would be doled out to
             the rich man’s heirs.</p>
 
-         <p>But that was the rub. James Halliday had no heirs. He had died a sixty-seven-year-old
+         <p>But that was the rub. <persName key="James Halliday" ref="http://www.wikidata.org/entity/Q55808133">James Halliday</persName> had no heirs. He had died a sixty-seven-year-old
             bachelor, with no living relatives and, by most accounts, without a single friend. He’d
             spent the last fifteen years of his life in self-imposed isolation, during which time—if
             the ru- mors were to be believed—he’d gone completely insane.</p>
          <p>So the real jaw-dropping news that January morning, the news that had everyone from
-            Toronto to Tokyo crapping in their cornfl akes, con- cerned the contents of Halliday’s
+            Toronto to Tokyo crapping in their cornflakes, concerned the contents of Halliday’s
             last will and testament, and the fate of his vast fortune.</p>
          <p>Halliday had prepared a short video message, along with instructions that it be released
-            to the world media at the time of his death. He’d also ar- ranged to have a copy of the
+            to the world media at the time of his death. He’d also arranged to have a copy of the
             video e-mailed to every single OASIS user that same morning. I still remember hearing
             the familiar electronic chime when it arrived in my inbox, just a few seconds after I
             saw that fi rst news bulletin.</p>
-         <p>His video message was actually a meticulously constructed short fi lm titled Anorak’s
+         <p>His video message was actually a meticulously constructed short film titled Anorak’s
             Invitation. A famous eccentric, Halliday had harbored a lifelong obsession with the
             1980s, the decade during which he’d been a teenager, and Anorak’s Invitation was crammed
             with obscure ’80s pop culture references, nearly all of which were lost on me the fi rst
             time I viewed it.</p>
-         <p>The entire video was just over fi ve minutes in length, and in the days and weeks that
+         <p>The entire video was just over five minutes in length, and in the days and weeks that
             followed, it would become the most scrutinized piece of fi lm in history, surpassing
-            even the Zapruder fi lm in the amount of pains- taking frame-by-frame analysis devoted
+            even the Zapruder film in the amount of pains- taking frame-by-frame analysis devoted
             to it. My entire generation would come to know every second of Halliday’s message by
             heart.</p>
 
