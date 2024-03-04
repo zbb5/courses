@@ -1514,6 +1514,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?title_annotation_20240304161713998",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-04T21:17:13.998Z",
+	"dcterms:modified": "2024-03-04T21:17:13.998Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/zbb5",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Zach Blumenfeld"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?title_annotation_20240304161713998#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?title_annotation_20240304161713998#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[15]/note/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q1551916",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -1591,7 +1670,7 @@
             music. At the same moment, the dancers and the gym- nasium behind him vanish, and the
             scene around him suddenly changes.</p>
          <p>Halliday now stands at the front of a funeral parlor, next to an open casket. <note>His
-               surroundings are actually from a scene in the 1989 film Heathers. Halliday appears
+               surroundings are actually from a scene in the <title key="Heathers" ref="http://www.wikidata.org/entity/Q1551916">1989 film Heathers</title>. Halliday appears
                to have digitally re-created the funeral parlor set and then inserted himself into
                it.</note> A second, much older Halliday lies inside the casket, his body emaciated
             and ravaged by cancer. Shiny quarters cover each of his eyelids. <note>High-resolution
