@@ -647,6 +647,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?date_annotation_20240304094317975",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-04T14:43:17.975Z",
+	"dcterms:modified": "2024-03-04T14:43:17.975Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/zbb5",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Zach Blumenfeld"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?date_annotation_20240304094317975#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?date_annotation_20240304094317975#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[22]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1979-12"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -767,7 +845,7 @@
             decor. A 21-inch Zenith television sits nearby, with an Atari 2600 game console hooked
             up to it.</p>
          <p>“This was the fi rst videogame system I ever owned,” Halliday says, now in a child’s
-            voice. “An Atari 2600. I got it for Christmas in 1979.” He plops down in front of the
+            voice. “<date when="1979-12">An Atari 2600. I got it for Christmas in 1979.</date>” He plops down in front of the
             Atari, picks up a joystick, and begins to play. “My favorite game was this one,” he
             says, nodding at the TV screen, where a small square is traveling through a series of
             simple mazes. “It was called Adventure. Like many early videogames, Adventure was
@@ -782,8 +860,7 @@
             Robinett had hidden his name.” On the TV, Halliday guides his square protagonist into
             the game’s secret room, where the words created by warren robinett appear in the cen-
             ter of the screen.</p>
-         <p>“This,” Halliday says, pointing to the screen with genuine reverence, “was the very fi
-            rst videogame Easter egg. Robinett hid it in his game’s code without telling a soul, and
+         <p>“This,” Halliday says, pointing to the screen with genuine reverence, “was the very first videogame Easter egg. Robinett hid it in his game’s code without telling a soul, and
             Atari manufactured and shipped Adventure all over the world without knowing about the
             secret room. They didn’t fi nd out about the Easter egg’s existence until a few months
             later, when kids all over the world began to discover it. I was one of those kids, and
