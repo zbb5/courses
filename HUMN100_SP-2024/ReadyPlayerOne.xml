@@ -1152,10 +1152,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?person_annotation_20240304161441453",
+	"id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?person_annotation_20240304162254496",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-03-04T21:14:41.453Z",
-	"dcterms:modified": "2024-03-04T21:22:54.496Z",
+	"dcterms:created": "2024-03-04T21:22:54.496Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/zbb5",
 		"@type": [
@@ -1166,7 +1165,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?person_annotation_20240304161441453#Target",
+		"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?person_annotation_20240304162254496#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml",
@@ -1180,7 +1179,7 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?person_annotation_20240304161441453#Selector",
+			"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?person_annotation_20240304162254496#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[11]/note/persName"
 		}
@@ -2224,6 +2223,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?note_annotation_20240304221039233",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-05T03:10:39.233Z",
+	"dcterms:modified": "2024-03-05T03:10:39.233Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/zbb5",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Zach Blumenfeld"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?note_annotation_20240304221039233#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?note_annotation_20240304221039233#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[26]/persName/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "oa:TextualBody",
+		"dc:format": "text/plain",
+		"rdf:value": "Anorak being the name of James Halliday's  OASIS avatar could be a slight nod to the British slang term which means \"A socially inept and studious or obsessive person with unfashionable and largely solitary interests. the term dates from  the 1980s and comes from the large anorak coats that trainspotters would wear."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -2367,7 +2445,7 @@
             away, and the scene shifts again. Halliday now stands in a dim cavern, where light from
             unseen torches fl ickers off the damp walls.</p>
          <p>In the same instant, Halliday’s appearance also changes once again, as he morphs into
-            his famous OASIS avatar, <persName type="fictional">Anorak</persName>—a tall, robed wizard with a slightly more handsome
+            his famous OASIS avatar, <persName type="fictional">Anorak<note type="annotation">Anorak being the name of James Halliday's  OASIS avatar could be a slight nod to the British slang term which means "A socially inept and studious or obsessive person with unfashionable and largely solitary interests. the term dates from  the 1980s and comes from the large anorak coats that trainspotters would wear.</note></persName>—a tall, robed wizard with a slightly more handsome
             version of the adult Halliday’s face (minus the eyeglasses). Anorak is dressed in his
             trademark black robes, with his ava- tar’s emblem (a large calligraphic letter “A”)
             embroidered on each sleeve.</p>
