@@ -2776,6 +2776,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?rs_annotation_20240306091636114",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-06T14:16:36.114Z",
+	"dcterms:modified": "2024-03-06T14:16:36.114Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/zbb5",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Zach Blumenfeld"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?rs_annotation_20240306091636114#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?rs_annotation_20240306091636114#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[33]/note/rs[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q11950731",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -2956,8 +3035,8 @@
          <p>Anorak throws open the double doors, revealing an immense treasure room filled with
             piles of glittering gold coins and jewel-encrusted gob- lets.<note>Analysis reveals
                dozens of curious items hidden among the mounds of treasure, most notably: several
-               early home computers (an <rs key="Apple IIe" ref="http://www.wikidata.org/entity/Q1761667">Apple IIe</rs>, a <rs key="Commodore 64" ref="http://www.wikidata.org/entity/Q99775">Commodore 64</rs>, an <rs key="Atari 800XL" ref="http://www.wikidata.org/entity/Q3777300">Atari 800XL</rs>, and a TRS-80
-               Color Computer 2), dozens of videogame controllers for a variety of game systems, and
+               early home computers (an <rs key="Apple IIe" ref="http://www.wikidata.org/entity/Q1761667">Apple IIe</rs>, a <rs key="Commodore 64" ref="http://www.wikidata.org/entity/Q99775">Commodore 64</rs>, an <rs key="Atari 800XL" ref="http://www.wikidata.org/entity/Q3777300">Atari 800XL</rs>, and a <rs key="TRS-80 Color Computer 2" ref="http://www.wikidata.org/entity/Q11950731">TRS-80
+               Color Computer 2</rs>), dozens of videogame controllers for a variety of game systems, and
                hundreds of polyhedral dice like those used in old tabletop role-playing
                games.</note> Then he steps into the open doorway and turns to face the viewer,
             stretching out his arms to hold open the giant double doors. <note>A freeze-frame of
@@ -3005,7 +3084,7 @@
             moment of their lives to searching for Halliday’s egg. At first, these individuals were
             known simply as “egg hunters,” but this was quickly truncated to the nickname
             “<orgName>gunters</orgName>.”</p>
-         <p>During the first year of the Hunt, being a gunter was highly fashion- able, and nearly
+         <p>During the first year of the Hunt, being a gunter was highly fashionable, and nearly
             every OASIS user claimed to be one.</p>
          <p>When the first anniversary of Halliday’s death arrived, the fervor sur- rounding the
             contest began to die down. An entire year had passed and no one had found anything. Not
@@ -3013,7 +3092,7 @@
             contained thousands of simulated worlds where the keys might be hidden, and it could
             take a gunter years to conduct a thorough search of any one of them.</p>
          <p>Despite all of the “professional” gunters who boasted on their blogs that they were
-            getting closer to a breakthrough every day, the truth gradu- ally became apparent: No
+            getting closer to a breakthrough every day, the truth gradually became apparent: No
             one really even knew exactly what it was they were looking for, or where to start
             looking for it.</p>
          <lg>
