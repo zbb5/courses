@@ -2934,6 +2934,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?date_annotation_20240306092532650",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-06T14:25:32.650Z",
+	"dcterms:modified": "2024-03-06T14:25:32.650Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/zbb5",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Zach Blumenfeld"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?date_annotation_20240306092532650#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?date_annotation_20240306092532650#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[33]/note[2]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1983"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -3120,8 +3198,8 @@
                games.</note> Then he steps into the open doorway and turns to face the viewer,
             stretching out his arms to hold open the giant double doors. <note>A freeze-frame of
                this scene appears nearly identical to a painting by <persName key="Jeff Easley" ref="http://www.wikidata.org/entity/Q2388292" type="real">Jeff Easley</persName> that appeared on the
-               cover of the Dungeon Master’s Guide, a Dungeons &amp; Dragons rulebook published in
-               1983.</note></p>
+               cover of the <title>Dungeon Master’s Guide, a Dungeons &amp; Dragons rulebook</title> published in
+               <date when="1983">1983</date>.</note></p>
          <p>“So without further ado,” Anorak announces, “let the hunt for Hal- liday’s Easter egg
             begin!” Then he vanishes in a flash of light, leaving the viewer to gaze through the
             open doorway at the glittering mounds of treasure that lay beyond.</p>
