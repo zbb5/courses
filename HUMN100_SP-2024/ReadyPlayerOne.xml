@@ -2539,6 +2539,243 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?rs_annotation_20240306091551154",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-06T14:15:51.154Z",
+	"dcterms:modified": "2024-03-06T14:15:51.154Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/zbb5",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Zach Blumenfeld"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?rs_annotation_20240306091551154#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?rs_annotation_20240306091551154#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[33]/note/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q1761667",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?rs_annotation_20240306091605645",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-06T14:16:05.645Z",
+	"dcterms:modified": "2024-03-06T14:16:05.645Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/zbb5",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Zach Blumenfeld"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?rs_annotation_20240306091605645#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?rs_annotation_20240306091605645#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[33]/note/rs[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q99775",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?rs_annotation_20240306091620431",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-06T14:16:20.431Z",
+	"dcterms:modified": "2024-03-06T14:16:20.431Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/zbb5",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Zach Blumenfeld"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?rs_annotation_20240306091620431#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?rs_annotation_20240306091620431#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[33]/note/rs[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q3777300",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -2627,7 +2864,7 @@
                clearly visible in the audience, sitting near the back. </note> Halliday snaps his fingers and a scroll appears in his right hand. He opens it with a flourish and it
             unfurls to the floor, unraveling down the aisle in front of him. He breaks the fourth
             wall, addressing the viewer, and begins to read.</p>
-         <p>“I, James Donovan Halliday, being of sound mind and disposing mem- ory, do hereby make,
+         <p>“I, James Donovan Halliday, being of sound mind and disposing memory, do hereby make,
             publish, and declare this instrument to be my last will and testament, hereby revoking
             any and all wills and codicils by me at any time heretofore made. . . .” He continues
             reading, faster and faster, plowing through several more paragraphs of legalese, until
@@ -2719,7 +2956,7 @@
          <p>Anorak throws open the double doors, revealing an immense treasure room filled with
             piles of glittering gold coins and jewel-encrusted gob- lets.<note>Analysis reveals
                dozens of curious items hidden among the mounds of treasure, most notably: several
-               early home computers (an Apple IIe, a Commodore 64, an Atari 800XL, and a TRS-80
+               early home computers (an <rs key="Apple IIe" ref="http://www.wikidata.org/entity/Q1761667">Apple IIe</rs>, a <rs key="Commodore 64" ref="http://www.wikidata.org/entity/Q99775">Commodore 64</rs>, an <rs key="Atari 800XL" ref="http://www.wikidata.org/entity/Q3777300">Atari 800XL</rs>, and a TRS-80
                Color Computer 2), dozens of videogame controllers for a variety of game systems, and
                hundreds of polyhedral dice like those used in old tabletop role-playing
                games.</note> Then he steps into the open doorway and turns to face the viewer,
