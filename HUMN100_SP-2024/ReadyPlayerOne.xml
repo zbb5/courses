@@ -2381,6 +2381,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?place_annotation_20240305203538698",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-06T01:35:38.698Z",
+	"dcterms:modified": "2024-03-06T01:35:38.698Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/zbb5",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Zach Blumenfeld"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?place_annotation_20240305203538698#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/zbb5/courses/main/HUMN100_SP-2024/ReadyPlayerOne.xml?place_annotation_20240305203538698#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[50]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q34863",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -2610,7 +2689,7 @@
             moment of their lives to searching for Halliday’s egg. At first, these individuals were
             known simply as “egg hunters,” but this was quickly truncated to the nickname
             “<orgName>gunters</orgName>.”</p>
-         <p>During the fi rst year of the Hunt, being a gunter was highly fashion- able, and nearly
+         <p>During the first year of the Hunt, being a gunter was highly fashion- able, and nearly
             every OASIS user claimed to be one.</p>
          <p>When the first anniversary of Halliday’s death arrived, the fervor sur- rounding the
             contest began to die down. An entire year had passed and no one had found anything. Not
@@ -2642,7 +2721,7 @@
          <p>And another.</p>
          <p>Then, on <date when="2045-02-11">the evening of February 11, 2045</date>, an avatar’s name appeared at the top of the
             Scoreboard, for the whole world to see. After fi ve long years, the Copper Key had finally been found, by an eighteen-year-old kid living in a trailer park on the outskirts
-            of Oklahoma City.</p>
+            of <placeName key="Oklahoma City" ref="http://www.wikidata.org/entity/Q34863">Oklahoma City</placeName>.</p>
          <p>That kid was me.</p>
          <p>Dozens of books, cartoons, movies, and miniseries have attempted to tell the story of
             everything that happened next, but every single one of them got it wrong. So I want to
